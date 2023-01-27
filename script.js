@@ -1,18 +1,16 @@
-let rockButton = document.getElementById("rock").value;
-let paperButton = document.getElementById("paper").value;
-let scissorButton = document.getElementById("scissor").value;
+let rockButton = document.getElementById("rock");
+let paperButton = document.getElementById("paper");
+let scissorButton = document.getElementById("scissor");
 
-const game = (userChoice, randomChoice) => {
-  if (userChoice > randomChoice) {
-    console.log(userChoice, " ", randomChoice);
-    console.log("user");
-  } else if (userChoice < randomChoice) {
-    console.log(userChoice, " ", randomChoice);
-    console.log("computer");
+rockButton.onclick = () => console.log("rock button");
+
+const computerChoice = () => {
+  let choice = Math.floor(Math.random() * 3);
+  if (choice === 0) {
+    return "rock";
+  } else if (choice === 1) {
+    return "paper";
   } else {
-    console.log(userChoice, " ", randomChoice);
-    console.log("equal");
+    return "scissor";
   }
 };
-
-console.log({ rockButton }, { paperButton }, { scissorButton });

@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 
-
 }
 body{
     background-color: #90BE6D;
@@ -41,12 +40,12 @@ body{
     line-height: 1em;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-.game-button:hover{
+.game-button:active{
     width: 80px;
     height: 80px;
     font-size:50px;
     transition: 0.1s;
-    cursor: pointer;
 }
