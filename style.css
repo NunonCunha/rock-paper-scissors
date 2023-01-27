@@ -2,27 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
+}
+body{
+    background-color: #90BE6D;
     font-family: 'Nunito', sans-serif;
     font-family: 'Poppins', sans-serif;
+    color: #EA9010;
 }
 
 #container{
     width: 100%;
     margin-top: 60px;
+
 }
 
-.div-properties{
-    background-color: brown;
+#game{
+    border-radius: 20px;
+    background-color: #37371F;
     width: 400px;
     margin: 0 auto;
     text-align: center;
     padding: 15px;
+    height: 380px;
+}
+
+.div-properties{
+    padding: 15px;
 }
 
 .game-button{
+    background-color: #C9E3AC;
     width: 100px;
     height: 100px;
     font-size:70px;
     text-align: center;
     line-height: 1em;
+    border: none;
+    border-radius: 10px;
+}
+
+.game-button:hover{
+    width: 80px;
+    height: 80px;
+    font-size:50px;
+    transition: 0.1s;
+    cursor: pointer;
 }
