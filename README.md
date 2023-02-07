@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-<p>Pode experimentar a aplicação no seguinte link <a href='https://nunoncunha.github.io/tipcalculator/' target='_blank'>Rock Paper Scissors</a></p> <br>
+<p>Pode experimentar a aplicação no seguinte link <a href='https://nunoncunha.github.io/rock-paper-scissors/' target='_blank'>Rock Paper Scissors</a></p> <br>
 O jogador pode fazer a sua escolha carregando nos botões (&#128074; &#9995; &#9996;) de jogo ou pode recomeçar carregando no botão &#128308;<br>
 A cada jogo é apresentado o resultado e os pontos do computador e do jogador.<br>
 
