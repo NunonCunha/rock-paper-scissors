@@ -29,14 +29,10 @@ const gameLogic = (userChoice, computerChoice) => {
 };
 
 const onClickButton = (playerCoice) => {
-  console.log({ playerCoice });
   const compChoice = computerChoice();
-  console.log({ compChoice });
   const score = gameLogic(playerCoice, compChoice);
-  console.log(score);
   totalScore.playerScore += score;
   totalScore.computerScore -= score;
-  console.log(totalScore);
   showResult(score, playerCoice, compChoice);
 };
 
